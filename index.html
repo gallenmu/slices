@@ -9,6 +9,7 @@
     {% include header.html %}
 
     <div class="slices">
+      <!--	    
       <section class="hero-section">
         <div class="hero-body">
           <div class="intro">
@@ -41,6 +42,7 @@
           </div>
         </div>
       </section>
+      -->
       <section class="features-section">
         <div class="features-wrapper">
           <div class="feature">
@@ -74,113 +76,74 @@
           <h5>Select the domain in which you are interested to continue:</h5>
           <div class="domain-buttons-wrapper">
             <a href="/explore/directory/wired">
-            <div class="domain domain-wired">
-              <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/wired-icon.png" alt=""/>
-              <h3>Wired</h3>
-            </div>
+              <div class="domain domain-wired">
+                <img src="{{site.url}}/img/f4f_portal/domains/wired-icon.png" alt=""/>
+                <h3>Wired</h3>
+              </div>
             </a>
-
-                        <a href="/explore/directory/wireless">
-
-                            <div class="domain domain-wireless">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/wireless-icon.png"
-                                     alt=""/>
-                                <h3>Wireless</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/5g">
-
-                            <div class="domain domain-5g">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/5g-icon.png"
-                                     alt=""/>
-                                <h3>5G</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/iot">
-
-                            <div class="domain domain-iot">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/iot-icon.png"
-                                     alt=""/>
-                                <h3>IoT</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/bigdata">
-
-                            <div class="domain domain-bigdata">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/bigdata-icon.png"
-                                     alt=""/>
-                                <h3>Big Data</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/openflow">
-
-                            <div class="domain domain-openflow">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/openflow-icon.png"
-                                     alt=""/>
-                                <h3>OpenFlow</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/cloud">
-
-                            <div class="domain domain-cloud">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/cloud-icon.png"
-                                     alt=""/>
-                                <h3>Cloud</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/sdn">
-
-                            <div class="domain domain-sdn">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/sdn-icon.png"
-                                     alt=""/>
-                                <h3>SDN</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/ai">
-
-                            <div class="domain domain-ai">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/ai-icon.png"
-                                     alt=""/>
-                                <h3>AI</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/cognitiveradio">
-
-                            <div class="domain domain-cognitiveradio">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/cognitiveradio-icon.png"
-                                     alt=""/>
-                                <h3>Cognitive Radio</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/hpc">
-
-                            <div class="domain domain-hpc">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/hpc-icon.png"
-                                     alt=""/>
-                                <h3>HPC</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/gpu">
-
-                            <div class="domain domain-gpu">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/gpu-icon.png"
-                                     alt=""/>
-                                <h3>GPU</h3>
-                            </div>
-                        </a>
-
-                </div>
+            <a href="/explore/directory/wireless">
+              <div class="domain domain-wireless">
+                <img src="{{site.url}}/img/f4f_portal/domains/wireless-icon.png" alt=""/>
+                <h3>Wireless</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/5g">
+              <div class="domain domain-5g">
+                <img src="{{site.url}}/img/f4f_portal/domains/5g-icon.png" alt=""/>
+                <h3>5G</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/iot">
+              <div class="domain domain-iot">
+                <img src="{{site.url}}/img/f4f_portal/domains/iot-icon.png" alt=""/>
+                <h3>IoT</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/bigdata">
+              <div class="domain domain-bigdata">
+                <img src="{{site.url}}/img/f4f_portal/domains/bigdata-icon.png" alt=""/>
+                <h3>Big Data</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/openflow">
+              <div class="domain domain-openflow">
+                <img src="{{site.url}}/img/f4f_portal/domains/openflow-icon.png" alt=""/>
+                <h3>OpenFlow</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/cloud">
+              <div class="domain domain-cloud">
+                <img src="{{site.url}}/img/f4f_portal/domains/cloud-icon.png" alt=""/>
+                <h3>Cloud</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/sdn">
+              <div class="domain domain-sdn">
+                <h3>SDN</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/ai">
+              <div class="domain domain-ai">
+                <h3>AI</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/cognitiveradio">
+              <div class="domain domain-cognitiveradio">
+                <h3>Cognitive Radio</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/hpc">
+              <div class="domain domain-hpc">
+                <h3>HPC</h3>
+              </div>
+            </a>
+            <a href="/explore/directory/gpu">
+              <div class="domain domain-gpu">
+                <h3>GPU</h3>
+              </div>
+            </a>
             </div>
+          </div>
         </section>
         <section class="contact-section">
             <div class="contact-wrapper">
