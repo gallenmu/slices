@@ -18,11 +18,10 @@ properties:
      -  "Job based"
    size: "500plus"
    technologies: 
-     - Wired Networking:
-       - "1 Gigabit Ethernet"
-       - "10 Gigabit Ethernet"
-       - "25 Gigabit Ethernet"
-       - "L2 Links support"
+     - "[Wired Networking] 1 Gigabit Ethernet"
+     - "[Wired Networking] 10 Gigabit Ethernet"
+     - "[Wired Networking] 25 Gigabit Ethernet"
+     - "[Wired Networking] L2 Links support"
      - "Openflow"
      - "Infiniband"
 site_url: "https://www.fed4fire.eu/testbeds/grid5000/"

@@ -15,8 +15,7 @@ properties:
   size:
     - "500plus"
   technologies:
-    - Wireless:
-      - "802.15.4"
+    - "[Wireless] 802.15.4"
 site_url: "https://www.iotlab.eu/"
 testbed_name: "IoT Lab"
 uid: 5
