@@ -1,10 +1,10 @@
 country: "France"
 description: "Grid5000 is a large-scale and flexible testbed for experiment-driven research in all areas of computer science, with a focus on parallel and distributed computing including Cloud, HPC and Big Data and AI."
-documentation_url: "https://www.grid5000.fr/w/Users_Home",
-id: "grid5000",
-image_url: "https://www.grid5000.fr/mediawiki/resources/assets/logo.png",
-odoo_team: 14,
-owner: "Inria",
+documentation_url: "https://www.grid5000.fr/w/Users_Home"
+id: "grid5000"
+image_url: "https://www.grid5000.fr/mediawiki/resources/assets/logo.png"
+odoo_team: 14
+owner: "Inria"
 properties:
    category: 
      - "wired"
@@ -16,15 +16,15 @@ properties:
      - "IPv6 Support"
      - "International L2 connectivity"
      -  "Job based"
-   size: "500plus",
+   size: "500plus"
    technologies: 
      - Wired Networking:
-       - "1 Gigabit Ethernet",
-       - "10 Gigabit Ethernet",
-       - "25 Gigabit Ethernet",
-       - "L2 Links support",
+       - "1 Gigabit Ethernet"
+       - "10 Gigabit Ethernet"
+       - "25 Gigabit Ethernet"
+       - "L2 Links support"
      - "Openflow"
      - "Infiniband"
-site_url: "https://www.fed4fire.eu/testbeds/grid5000/",
-testbed_name: "Grid5000",
+site_url: "https://www.fed4fire.eu/testbeds/grid5000/"
+testbed_name: "Grid5000"
 uid: 6
