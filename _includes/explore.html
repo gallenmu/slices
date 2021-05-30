@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class=" no-js" lang="en">
 
-  {{ site.testbeds }}
 
   {% include head.html %}
   <body class="explore-home-body">
@@ -16,7 +15,14 @@
       <div class="main-container" id="main-container">
       </div>
       <script>
-	{% include script.js %}
+	exploreApp.showExploreTestbeds([
+	{% for testbed in site.data %}
+        {{ testbed[1] | jsonify }},
+        {% endfor  %}
+	],
+        document.querySelector('#main-container')
+        );
+
       </script>
       
     {% include footer.html %}
