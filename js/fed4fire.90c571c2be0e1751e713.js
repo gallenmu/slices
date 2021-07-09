@@ -976,7 +976,7 @@ module.exports = __webpack_require__.p + "9ccb65771eac6d1ff178dc577ff826cc.woff2
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d0bf5ab4100acbeafaeeb2703ff36427.svg";
+module.exports = "./slices/img/favicon.png";
 
 /***/ }),
 
