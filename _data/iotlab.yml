@@ -1,0 +1,21 @@
+country: "Switzerland"
+description: "IoT Lab is a platform for the research on the potential of crowdsourcing and the Internet of Things for multidisciplinary research and experiments with more end-user interactions. IoT Lab is offering a platform bringing together citizens, end-users and researchers to work together and to address real challenges by combining the research community and the wisdom of the crowd. IoT Lab provides a Testbed as a Service for the researchers. It combines into a common platform the crowdsourcing tools together with several testbeds on the Internet of Things. It provides a unique tool to ease all kinds of multidisciplinary research and experiments. It also facilitates reporting and sharing the most relevant results of the different research activities with the participants."
+documentation_url: "https://gitlab.distantaccess.com/iotlab-fed4fire/fed4fire-\ndocumentation"
+id: "iotlab"
+image_url: "https://gitlab.distantaccess.com/iotlab-fed4fire/fed4fire-documentation/-"
+odoo_team: 13,
+owner: "Mandat International"
+properties:
+  category:
+    - "iot"
+  properties:
+    - "Resource reservation"
+    - "IPv6 Support"
+    - "Job Based"
+  size:
+    - "500plus"
+  technologies:
+    - "[Wireless] 802.15.4"
+site_url: "https://www.iotlab.eu/"
+testbed_name: "IoT Lab"
+uid: 5

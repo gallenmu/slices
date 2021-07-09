@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class=" no-js" lang="en">
+  {% include head.html %}
+  <body class="explore-home-body">
+    {% include header.html %}
+    <div class="slices">
+      <div class="content-title-wrapper">
+        <div class="content-title">
+          <h2> Explore our offering</h2>
+        </div>
+      </div>
+      <div class="main-container" id="main-container">
+      </div>
+      <script>
+        exploreApp.showExploreTestbeds([
+          {% for testbed in site.data %}{{ testbed[1] | jsonify }},
+        {% endfor  %}
+        ],
+        document.querySelector('#main-container')
+        );
+      </script>
+    {% include footer.html %}
+  </body>
+</html>

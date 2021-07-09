@@ -5,25 +5,26 @@
 <html class=" no-js" lang="en">
 
   {% include head.html %}
-  <body class="explore-home-body">
+  <body class="web/explore-home-body">
     {% include header.html %}
 
     <div class="slices">
+      <!--	    
       <section class="hero-section">
         <div class="hero-body">
           <div class="intro">
             <h1>Put your ICT idea or solution to the test!</h1>
             <p>We make it simple to test your solution on a wide range of infrastructure offered by testbeds
                across Europe, covering
-	       <em><a href="/explore/directory/cloud">cloud computing</a></em>,
-               <em><a href="/explore/directory/cloud">wireless</a> and
-	           <a href="/explore/directory/cloud">wired networking</a></em>,
-               <em><a href="/explore/directory/iot">sensor networks</a></em>,
-               <em><a href="/explore/directory/openflow">software defined networking</a></em>
+	       <em><a href="/web/explore/directory/cloud">cloud computing</a></em>,
+               <em><a href="/web/explore/directory/cloud">wireless</a> and
+	           <a href="/web/explore/directory/cloud">wired networking</a></em>,
+               <em><a href="/web/explore/directory/iot">sensor networks</a></em>,
+               <em><a href="/web/explore/directory/openflow">software defined networking</a></em>
 	       and more.</p>
 
-            <p><a href="/explore/discover" id="discover-testbeds" class="button primary">Discover our testbeds</a>
-               <a href="/explore/contact" id="contact-us" class="button">Contact Us</a></p>
+            <p><a href="/web/explore/discover" id="discover-testbeds" class="button primary">Discover our testbeds</a>
+               <a href="/web/explore/contact" id="contact-us" class="button">Contact Us</a></p>
             <p class="hero-open-access"><a href="#open-access"><strong>Open Access</strong>: Usage of our
                facilities is free of charge<sup>*</sup></a></p>
           </div>
@@ -41,6 +42,8 @@
           </div>
         </div>
       </section>
+      -->
+      <!--
       <section class="features-section">
         <div class="features-wrapper">
           <div class="feature">
@@ -64,6 +67,7 @@
           </div>
         </div>
       </section>
+      -->
       <section class="domains-section">
         <div class="domains-wrapper">
           <h3>Find the testbed that is right for you <i class="fad fa-search directory-icon"></i></h3>
@@ -73,115 +77,77 @@
              properties, location and more.</p>
           <h5>Select the domain in which you are interested to continue:</h5>
           <div class="domain-buttons-wrapper">
-            <a href="/explore/directory/wired">
-            <div class="domain domain-wired">
-              <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/wired-icon.png" alt=""/>
-              <h3>Wired</h3>
-            </div>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-wired">
+                <img src="{{site.url}}/img/wired-icon.png" alt=""/>
+                <h3>Wired</h3>
+              </div>
             </a>
-
-                        <a href="/explore/directory/wireless">
-
-                            <div class="domain domain-wireless">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/wireless-icon.png"
-                                     alt=""/>
-                                <h3>Wireless</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/5g">
-
-                            <div class="domain domain-5g">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/5g-icon.png"
-                                     alt=""/>
-                                <h3>5G</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/iot">
-
-                            <div class="domain domain-iot">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/iot-icon.png"
-                                     alt=""/>
-                                <h3>IoT</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/bigdata">
-
-                            <div class="domain domain-bigdata">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/bigdata-icon.png"
-                                     alt=""/>
-                                <h3>Big Data</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/openflow">
-
-                            <div class="domain domain-openflow">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/openflow-icon.png"
-                                     alt=""/>
-                                <h3>OpenFlow</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/cloud">
-
-                            <div class="domain domain-cloud">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/cloud-icon.png"
-                                     alt=""/>
-                                <h3>Cloud</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/sdn">
-
-                            <div class="domain domain-sdn">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/sdn-icon.png"
-                                     alt=""/>
-                                <h3>SDN</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/ai">
-
-                            <div class="domain domain-ai">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/ai-icon.png"
-                                     alt=""/>
-                                <h3>AI</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/cognitiveradio">
-
-                            <div class="domain domain-cognitiveradio">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/cognitiveradio-icon.png"
-                                     alt=""/>
-                                <h3>Cognitive Radio</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/hpc">
-
-                            <div class="domain domain-hpc">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/hpc-icon.png"
-                                     alt=""/>
-                                <h3>HPC</h3>
-                            </div>
-                        </a>
-
-                        <a href="/explore/directory/gpu">
-
-                            <div class="domain domain-gpu">
-                                <img src="https://dev.account.ilabt.imec.be:5443/static/img/f4f_portal/domains/gpu-icon.png"
-                                     alt=""/>
-                                <h3>GPU</h3>
-                            </div>
-                        </a>
-
-                </div>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-wireless">
+                <img src="{{site.url}}/img/wireless-icon.png" alt=""/>
+                <h3>Wireless</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-5g">
+                <img src="{{site.url}}/img/5g-icon.png" alt=""/>
+                <h3>5G</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-iot">
+                <img src="{{site.url}}/img/iot-icon.png" alt=""/>
+                <h3>IoT</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-bigdata">
+                <img src="{{site.url}}/img/bigdata-icon.png" alt=""/>
+                <h3>Big Data</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-openflow">
+                <img src="{{site.url}}/img/openflow-icon.png" alt=""/>
+                <h3>OpenFlow</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-cloud">
+                <img src="{{site.url}}/img/cloud-icon.png" alt=""/>
+                <h3>Cloud</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-sdn">
+                <h3>SDN</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-ai">
+                <h3>AI</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-cognitiveradio">
+                <h3>Cognitive Radio</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-hpc">
+                <h3>HPC</h3>
+              </div>
+            </a>
+            <a href="{{site.url}}/web/explore.html">
+              <div class="domain domain-gpu">
+                <h3>GPU</h3>
+              </div>
+            </a>
             </div>
+          </div>
         </section>
+	<!--
         <section class="contact-section">
             <div class="contact-wrapper">
                 <div class="contact-info">
@@ -193,7 +159,7 @@
                         features you would like to investigate, which problem you would like to solve, technology or
                         solution choice you would like to made, etc.</p>
 
-                    <a href="/explore/contact" id="contact-us" class="button">Contact Us</a>
+                    <a href="/web/explore/contact" id="contact-us" class="button">Contact Us</a>
                 </div>
 
                 <div class="contact-reasons">
@@ -206,6 +172,7 @@
                 </div>
             </div>
         </section>
+	-->
     </div>
 
     {% include footer.html %}
