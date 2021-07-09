@@ -965,7 +965,7 @@ module.exports = __webpack_require__.p + "d8f8190b5270cf913de39d754f0a9e7e.woff"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "9ccb65771eac6d1ff178dc577ff826cc.woff2";
+module.exports = "https://gallenmu.github.io/slices/static/9ccb65771eac6d1ff178dc577ff826cc.woff2";
 
 /***/ }),
 
@@ -10104,7 +10104,7 @@ module.exports = __webpack_require__.p + "8102c4838f9e3d08dad644290a9cb701.woff"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bc3aa95dca08f5fee5291e34959c27bc.woff2";
+module.exports = "https://gallenmu.github.io/slices/static/bc3aa95dca08f5fee5291e34959c27bc.woff2";
 
 /***/ }),
 
@@ -10126,7 +10126,7 @@ module.exports = __webpack_require__.p + "d191f22af3bb50902b99ac577f81a322.woff"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "5cad650422a7184467af5a4d17b264c4.woff2";
+module.exports = "https://gallenmu.github.io/slices/static/5cad650422a7184467af5a4d17b264c4.woff2";
 
 /***/ }),
 
@@ -10236,7 +10236,7 @@ module.exports = __webpack_require__.p + "80f10bd382f0df1cd650fec59f3c9394.woff"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "39d93cf678c740f9f6b2b1cfde34bee3.woff2";
+module.exports = "https://gallenmu.github.io/slices/static/39d93cf678c740f9f6b2b1cfde34bee3.woff2";
 
 /***/ }),
 
