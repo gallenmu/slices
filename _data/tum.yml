@@ -12,7 +12,7 @@ properties:
      - "sdn"
    properties:
      -  "Reproducibility"
-   size: "25-100"
+   size: "25to100"
    technologies:
      - "[Wireless Networking] 802.11g WLAN"
      - "[Wireless Networking] 802.11n WLAN"
