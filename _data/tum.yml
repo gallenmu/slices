@@ -3,19 +3,16 @@ description: "Reproducible network research is part of our research agenda for m
 documentation_url: ""
 id: "tum"
 image_url: "https://slices-sc.eu/wp-content/uploads/2021/04/tum-photo-768x1024.jpg"
-owner: "TUM"
+owner: "Technical University of Munich (TUM)"
 properties:
    category:
      - "wireless"
      - "wired"
      - "cloud"
      - "sdn"
-     - "openflow"
-     - "P4"
-     - "reproducibility"
    properties:
-     -  "Job based"
-   size: "30"
+     -  "Reproducibility"
+   size: "25-100"
    technologies:
      - "[Wireless Networking] 802.11g WLAN"
      - "[Wireless Networking] 802.11n WLAN"
