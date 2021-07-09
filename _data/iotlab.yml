@@ -3,7 +3,6 @@ description: "IoT Lab is a platform for the research on the potential of crowdso
 documentation_url: "https://gitlab.distantaccess.com/iotlab-fed4fire/fed4fire-\ndocumentation"
 id: "iotlab"
 image_url: "https://gitlab.distantaccess.com/iotlab-fed4fire/fed4fire-documentation/-"
-odoo_team: 13,
 owner: "Mandat International"
 properties:
   category:

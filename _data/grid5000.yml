@@ -3,7 +3,6 @@ description: "Grid5000 is a large-scale and flexible testbed for experiment-driv
 documentation_url: "https://www.grid5000.fr/w/Users_Home"
 id: "grid5000"
 image_url: "https://www.grid5000.fr/mediawiki/resources/assets/logo.png"
-odoo_team: 14
 owner: "Inria"
 properties:
    category:
