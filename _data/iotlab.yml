@@ -16,4 +16,5 @@ properties:
   technologies:
     - "[Wireless] 802.15.4"
 site_url: "https://www.iotlab.eu/"
+contact: "ccrettaz@mandint.org"
 testbed_name: "IoT Lab"

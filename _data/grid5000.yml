@@ -24,4 +24,5 @@ properties:
      - "Openflow"
      - "Infiniband"
 site_url: "https://www.fed4fire.eu/testbeds/grid5000/"
+contact: "lucas.nussbaum@loria.fr"
 testbed_name: "Grid5000"
