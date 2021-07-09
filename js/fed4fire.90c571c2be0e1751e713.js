@@ -910,7 +910,7 @@ module.exports = __webpack_require__.p + "63fd19c4b7da6de0dbcb868ff50348e5.woff"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a69d11499b227b64dda37c0e2ea0e060.woff2";
+module.exports = "https://gallenmu.github.io/slices/static/a69d11499b227b64dda37c0e2ea0e060.woff2";
 
 /***/ }),
 
